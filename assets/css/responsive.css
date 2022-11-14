@@ -1,0 +1,213 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    .carousel{
+        padding: 90px 0px 180px 0px;
+    }
+    .carousel .carousel-item h1{
+        font-size: 32px;
+    }
+    .carousel .carousel-item a{
+        margin-bottom: 20px;
+     }
+    /* header end */
+    /* about us start */
+    .about-us .about-us-titel h2{
+        font-size: 25px;
+    }
+    /* about us end */
+    /* service start  */
+    .service-content-overlay p{
+        padding: 350px 0px 0px 15px;
+    }
+    .service-content-overlay h5{
+        font-size: 18px;
+        padding-top: 120px;
+        padding-right: 180px;
+    }
+    .service-content-overlay h4{
+        padding-top: 161px;
+        padding-left: 100px;
+    }
+    .service-content-overlay h4::after{
+        position: absolute;
+        content: '';
+        top: 103%;
+        height: 4px;
+        width: 35%;
+        background: var(--white-color);
+        right: 24%;
+        border-radius: 2px;
+    }
+    /* service end  */
+    /* contact start */
+    .contact-section .contact h5{
+        font-size: 18px;
+    }
+    .contact-section .contact a{
+        margin-top: 10px;
+    }
+    /* contact end */
+    /* blog start  */
+    .blog-content p{
+        padding-bottom: 5px;
+    }
+    /* blog end  */
+    /* footer start  */
+    input {
+        width: 58%;
+        padding: 9px 5px;
+    }
+    .footer-img, .footer-bottam ul li, .ftlink a{
+        text-align: center;
+    }
+    .footer-bottam ul li{
+        border-right: none;
+    }
+    /* footer end  */
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    /* service start  */
+    .service-content-overlay p{
+        padding: 270px 0px 0px 15px;
+    }
+    .service-content-overlay h5{
+        font-size: 22px;
+        padding-top: 208px;
+        padding-right: 208px;
+    }
+    /* service end  */
+    /* portfolio start  */
+    .portfolio-content-overlay i {
+        font-size: 30px;
+        padding-top: 117px;
+        margin-right: 10px;
+}
+    /* portfolio end  */
+    /* footer start  */
+    input {
+        width: 58%;
+        padding: 9px 5px;
+    }
+    .footer-img, .footer-bottam ul li, .ftlink a{
+        text-align: center;
+    }
+    .footer-bottam ul li{
+        border-right: none;
+    }
+    /* footer end  */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   /* about us start */
+   .about-us .about-us-titel h2{
+    font-size: 25px;
+}
+.about-us-img{
+    margin-top: 120px;
+}
+/* about us end */
+/* service start  */
+.service-content-overlay p{
+    padding: 150px 0px 0px 5px;
+    font-size: 14px;
+}
+
+.service-content-overlay h5{
+    font-size: 16px;
+    padding-top: 150px;
+    padding-right: 185px;
+}
+.service-content-overlay h4{
+    padding-top: 131px;
+    padding-left: 50px;
+}
+.service-content-overlay h4::after{
+    position: absolute;
+    content: '';
+    top: 103%;
+    height: 4px;
+    width: 35%;
+    background: var(--white-color);
+    right: 38%;
+    border-radius: 2px;
+}
+/* service end  */
+/* portfolio start  */
+.portfolio-content-overlay i {
+    font-size: 30px;
+    padding-top: 80px;
+    margin-right: 10px;
+}
+/* portfolio end  */
+/* footer start  */
+input {
+    width: 58%;
+    padding: 9px 5px;
+}
+
+.footer-bottam ul li{
+    border-right: none;
+}
+/* footer end  */
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    /* service start  */
+.service-content-overlay p{
+    padding: 230px 0px 0px 15px;
+    font-size: 18px;
+}
+
+.service-content-overlay h5{
+    font-size: 18px;
+    padding-top: 225px;
+    padding-right: 265px;
+}
+.service-content-overlay h4{
+    padding-top: 131px;
+    padding-left: 50px;
+}
+.service-content-overlay h4::after{
+    position: absolute;
+    content: '';
+    top: 103%;
+    height: 4px;
+    width: 32%;
+    background: var(--white-color);
+    right: 35%;
+    border-radius: 2px;
+}
+/* service end  */
+/* portfolio start  */
+.portfolio-content-overlay i {
+    font-size: 30px;
+    padding-top: 120px;
+    margin-right: 10px;
+}
+/* portfolio end  */
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+     /* service start  */
+.service-content-overlay p{
+    padding: 270px 0px 0px 15px;
+    font-size: 18px;
+}
+
+.service-content-overlay h5{
+    font-size: 18px;
+    padding-top: 265px;
+    padding-right: 371px;
+}
+
+.service-content-overlay h4::after{
+    position: absolute;
+    content: '';
+    top: 103%;
+    height: 4px;
+    width: 22%;
+    background: var(--white-color);
+    right: 21%;
+    border-radius: 2px;
+}
+/* service end  */
+}
